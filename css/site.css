@@ -30,13 +30,14 @@ body
 .calculator:after
 {
   content: " ";
-  width: 375px;
-  height: 492px;
+  width: 400px;
+  height: 575px;
   background-color: #eee;
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: -1;
+  border-radius: 20%;
 }
 
 .arrow-left, .arrow-right
@@ -50,7 +51,7 @@ body
   -ms-transform:rotate(-45deg);
   -webkit-transform:rotate(-45deg);
 }
-
+/* fdsfs 
 .arrow-left
 {
   right: -13px;
@@ -64,7 +65,7 @@ body
   bottom: -20px;
   border-left:15px solid #eee;
 }
-
+*/
 .calculator-inner
 {
   margin: 35px;

@@ -20,7 +20,7 @@ body
 
 .calculator
 {
-  width: 375px;
+  width: 400px;
   background-color: hsl(337, 77%, 37%); /*aqua*/
   margin: 60px auto;
   position: relative;
@@ -121,7 +121,7 @@ body
   opacity: .5;
 }
 
-.buttons a:nth-child(4n)
+.buttons a:nth-child(12n)
 {
   margin-right: 0;
 }
